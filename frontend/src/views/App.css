@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1850px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bg {
+  background: url(/фон1.png);
+  width: 1850px;
+  height: 850px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo {
+  text-align: center;
+}
+.sep {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 100px;
+
+}
+
+.inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+input {
+padding: 5px;
+border-radius: 10px;
+margin: 5px 0px;
+width: 600px;
+height: 60px;
+font-size: 20px;
+}
+button {
+  width: 610px;
+  height: 65px;
+  margin: 5px 0px;
+}
+.text {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+}
+.vhod {
+  text-align: center;
+  font-size: 50px;
+}
+.vhod1 {
+  margin-bottom: 100px;
+}
+.btn {
+margin-top: 75px;
+}
+.line {
+  width: 3px;
+  height: 550px;
+  background-color: black;
+}
+
+.users {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.user_data {
+  text-align: left;
+}
+
+.view {
+  margin-top: 60px;
+  margin-right: 400px;
+}
+
+.order {
+  background: lightgray;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+textarea {
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.item {
+  background-color: lightgray;
+  width: 300px;
+  padding: 20px;
+}
